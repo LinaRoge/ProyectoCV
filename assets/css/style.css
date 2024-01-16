@@ -22,7 +22,7 @@ html {
   max-width: 1100px;
   margin: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 15px 20px;
 }
@@ -128,8 +128,10 @@ html {
   padding: 50px 20px;
   border-radius: 30px;
   text-align: justify;
-
+  margin: 20px;
   opacity: 1;
+  top: 20px;
+  position: relative;
 }
 .sobremi .contenido-seccion {
   max-width: 800px;
@@ -163,6 +165,8 @@ html {
   margin: 20px;
   border-radius: 30px;
   display: flex;
+  top: 10px;
+  position: relative;
 }
 .fila .col h3 {
   font-size: 28px;
@@ -175,10 +179,8 @@ html {
   display: flex;
   flex-wrap: wrap;
   width: 330px;
-  background-color: #1e2326;
   color: #fff;
   margin: 20px;
-  border-radius: 30px;
 }
 .contenedor-intereses h3 {
   justify-content: center;
@@ -299,9 +301,9 @@ footer {
   top: 20px;
   text-align: center;
   color: #1cb698;
-  height: 150px;
+  height: 180px;
   margin: 0%;
-
+  padding: 2px;
   background-color: #252a2e;
 }
 
@@ -315,7 +317,6 @@ footer p {
 footer a {
   text-decoration: none;
   display: inline-block;
-
   color: white;
   margin: 1px;
   font-size: 26px;
@@ -329,11 +330,14 @@ footer a {
   font-size: 26px;
 }
 /*SECCION RESPONSITIVE*/
-@media screen and (max-width: 800px) {
-  .redes {
-    display: none;
+@media screen and (max-width: 700px) {
+  .inicio {
+    display: table-row;
   }
-  nav {
-    display: none;
+  .fila {
+    display: block;
+  }
+  .fila .col {
+    display: block;
   }
 }
