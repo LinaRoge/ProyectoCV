@@ -1,4 +1,4 @@
-# Curriculun Vitae y Portafolio
+# Curriculum Vitae y Portafolio
 
 <p>Mi Primer proyecto con GitHut Desafio Latam introducción a la programación web<p>
 
